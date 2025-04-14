@@ -1,0 +1,28 @@
+.btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: unset;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    flex-grow: 1;
+}
+
+.btn img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.btn span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #DAA520;
+}
