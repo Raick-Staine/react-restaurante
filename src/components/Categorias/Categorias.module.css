@@ -26,3 +26,15 @@
 .btn:hover {
     background-color: #DAA520;
 }
+
+.categories {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.btn:hover,
+.selectedBtn {
+    background-color: #DAA520;
+}
